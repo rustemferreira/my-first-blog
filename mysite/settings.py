@@ -25,7 +25,7 @@ SECRET_KEY = 'b4^osp3*^1p6i()#c02f0pt75k=ivm7v8*z1tj^t^p#i^&6_++'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'django-girls.localhost.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'h1924552.pythonanywhere.com']
 
 
 # Application definition
@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'mysitegirl.urls'
+ROOT_URLCONF = 'mysite.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'mysitegirl.wsgi.application'
+WSGI_APPLICATION = 'mysite.wsgi.application'
 
 
 # Database
